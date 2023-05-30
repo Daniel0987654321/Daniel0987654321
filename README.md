@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  
+  <header>
+  <img src="chemin/vers/votre/logo.png" alt="Logo treff_inclan">
+  <h1>treff_inclan</h1>
+  <nav>
+    <!-- Vos éléments de navigation -->
+  </nav>
+</header>
+
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>treff_inclan - Vêtements en ligne</title>
@@ -113,4 +123,20 @@
   <footer>
     <
 
+<form action="traitement_formulaire.php" method="post">
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" required>
+  
+  <label for="email">Email :</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="phone">Téléphone :</label>
+  <input type="tel" id="phone" name="phone" required>
+  
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" required></textarea>
+  
+  <button type="submit">Envoyer</button>
+</form>
 
+    
